@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+* {
+margin:0;
+padding:0;
+}
+
+body {
+font-family: "Wii NTLG PGothic Regular";
+color: #333333;
+}
+
+img {border:0;}
+
+p{margin:24px 0;}
+
+table.set {margin-top:18px;}
+
+table.page_set {margin:6px 0 15px 0;}
+
+/*style2を変えた見出し*/
+.heading {
+	color: #FFFFFF;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top:4px;
+}
+
+/*style3を変えた小見出し*/
+.subheading {
+	font-weight: 400;
+	font-size: 20px;
+}
+/*style5を変えたトップの数字*/
+.top_num {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	padding-left:9px;
+	text-align:center;
+}
+
+/*style4を変えたトップのボタンの名前*/
+.content {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+/*ボタン*/
+.button {
+	padding-top: 0px;
+	width: 370px;
+	height: 73px;
+	background-image: url("img/BtnContents.png");
+}
+
+/*page_css*/
+/*style2を変えたpage見出し*/
+.p_heading {
+	color: #FFFFFF;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/*style24を変えたpage数字*/
+.page_nam {
+	font-weight: bold;
+	font-size: 32px;
+	padding-top: 27px;
+}
+/*style3_mainpage*/
+.main {
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 0px
+}
+/*style3_b_page*/
+.main_blue {
+	color: #43B6DF;
+}
+
+/*style25_page_small*/
+.small {font-size: 20px;margin:20px 0;}
+
+/*style25*/
+.main_bold {
+color: #43B6DF;
+font-weight: 400; 
+font-size: 24px; 
+margin-top: 10px;
+}
+
+/*※部分*/
+div.style_cap {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.grey_border{
+	background-color: #969696;
+	height: 2px;
+	width: 2px;
+	margin: 0;
+	padding: 0;
+}
+.light_grey_border {
+	background-color: #f0f0f0;
+	height: 2px;
+	width: 2px;	
+}
+.title_black {
+	color: #333333;
+	font-size: 24px;
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+}
+.style_copyrights {
+	color: #333333;
+	font-size: 18px;
+}
+.symbol {
+	color: #333333;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-left: 5px;
+	padding-bottom: 6px;
+}
+.title_white {
+	color: #ffffff;
+	font-size: 24px;
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	font-weight: bold;
+}
+
+td[width="362"]>a:first-child:hover, div[align="right"]>a:first-child:hover, a:hover img {
+	outline: none;
+}
